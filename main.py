@@ -18,7 +18,7 @@ from crewai_tools import FileWriterTool
 
 # Set up environment variables
 # Note: You can run this without API keys for basic functionality
-#os.environ["OPENAI_API_KEY"] = "KEY"
+os.environ["OPENAI_API_KEY"] = "gpt-5-nano-2025-08-07"
 
 def create_caroline_agent():
     """Create Caroline's personal digital twin agent."""
