@@ -1,4 +1,15 @@
-crewai>=0.28.8
-crewai[tools]>=0.28.8
-openai>=1.0.0
+# Core CrewAI
+crewai>=0.1.0
+crewai-tools>=0.1.0
+langchain>=0.1.0
+langchain-openai>=0.0.2
 python-dotenv>=1.0.0
+
+# Speech capabilities (NEW for HW4)
+openai-whisper>=20231117
+torch>=2.0.0
+torchaudio>=2.0.0
+gtts>=2.5.0
+soundfile>=0.12.1
+sounddevice>=0.4.6
+numpy<2.0
